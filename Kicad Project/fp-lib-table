@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name geiger_holder)(type KiCad)(uri ${KIPRJMOD}/geiger_holder.pretty)(options "")(descr ""))
+)

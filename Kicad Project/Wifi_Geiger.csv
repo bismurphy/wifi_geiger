@@ -1,0 +1,33 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref
+1,L2,L_Bourns_SRR1210A,1,10m,https://www.digikey.com/product-detail/en/SRR1208-103KL/SRR1208-103KLCT-ND/6100085/?itemSeq=339504597
+2,"R7,R10,R4",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,3,470K,https://www.digikey.com/product-detail/en/RK73B1JTTD474J/2019-RK73B1JTTD474JCT-ND/9846788/?itemSeq=339504830
+3,"C8,C4",C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,100n,https://www.digikey.com/product-detail/en/CL10B104KB8NNWC/1276-1935-1-ND/3890021/?itemSeq=339437321
+4,"R8,R13,R15,R16,R14",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,5,10K,https://www.digikey.com/product-detail/en/RMCF0603JT10K0/RMCF0603JT10K0CT-ND/1943191/?itemSeq=339504910
+5,C9,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,270p,https://www.digikey.com/product-detail/en/0603N271J500CT/1292-1512-1-ND/9355516/?itemSeq=339437454
+6,D4,D_0603_1608Metric_Castellated,1,LED,https://www.digikey.com/product-detail/en/150060RS75000/732-4978-1-ND/4489899/?itemSeq=339438217
+7,"Q2,Q3",SOT-23-3,2,MMBT3904-TP,https://www.digikey.com/product-detail/en/MMBT3904-TP/MMBT3904TPMSCT-ND/717395/?itemSeq=339531676
+8,R5,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,47K,https://www.digikey.com/product-detail/en/RMCF0603JT47K0/RMCF0603JT47K0CT-ND/1943199/?itemSeq=339531835
+9,U4,SOIC-8_3.9x4.9mm_P1.27mm,1,LM2904,https://www.digikey.com/product-detail/en/LM2904DR/296-14596-1-ND/555533/?itemSeq=339439242
+10,"C5,C3,C10",CP_Elec_6.3x5.3,3,100u,https://www.digikey.com/product-detail/en/EEE-HA0J101WR/PCE4156CT-ND/814229/?itemSeq=339436896
+11,"C1,C2,C6,C11",C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,4,10n,https://www.digikey.com/product-detail/en/C3216X7R2J103K115AA/445-2291-1-ND/789800/?itemSeq=339437093
+12,C7,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,1n,https://www.digikey.com/product-detail/en/885012206083/732-8001-1-ND/5454628/?itemSeq=339437364
+13,"D1,D2,D3",D_SOD-123F,3,D,https://www.digikey.com/product-detail/en/1N4007FLTR/1655-1N4007FLCT-ND/11657827/?itemSeq=339437663
+14,J1,USB_Mini-B_Lumberg_2486_01_Horizontal,1,USB_B_Mini,ALREADY IN STOCK
+15,J2,SolderWirePad_1x04_P3.81mm_Drill1mm,1,Conn_01x04,Not a physical part
+16,JP1,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,1,SolderJumper_2_Open,Not a physical part
+17,L1,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,100u,https://www.digikey.com/product-detail/en/LBR2012T101K/587-2048-1-ND/1788995/?itemSeq=339532417
+18,Q1,SOT-23-3,1,MMBTA42LT1G,https://www.digikey.com/product-detail/en/MMBTA42LT1G/MMBTA42LT1GOSCT-ND/1139835/?itemSeq=339532486
+19,"R1,R3",R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,33K,https://www.digikey.com/product-detail/en/RMCF0603JT33K0/RMCF0603JT33K0CT-ND/1943198/?itemSeq=339532768
+20,R2,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,10M,https://www.digikey.com/product-detail/en/RMCF0603JT10M0/RMCF0603JT10M0CT-ND/1943216/?itemSeq=339532869
+21,R6,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,100K,ALREADY IN STOCK
+22,R9,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,3K,https://www.digikey.com/product-detail/en/MCR03ERTJ302/RHM3KCGCT-ND/4084397/?itemSeq=339532973
+23,R11,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,DNP,Not a physical part
+24,R12,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,1K,ALREADY IN STOCK
+25,RV1,Potentiometer_Bourns_TC33X_Vertical,1,100,https://www.digikey.com/product-detail/en/TC33X-2-101E/TC33X-101ECT-ND/612909/?itemSeq=339439205
+26,S1,Switch_Tactile_SMD_6x6mm_PTS645,1,PTS645SM43SMTR92_LFS,https://www.digikey.com/product-detail/en/PTS645SM43SMTR92+LFS/CKN9112CT-ND/1146934/?itemSeq=339533063
+27,"U1,U3",SOIC-8_W3.9mm,2,NE555DR,https://www.digikey.com/product-detail/en/NE555DR/296-6501-1-ND/372490/?itemSeq=339533218
+28,U2,SOT-23-5,1,MIC5504-3.3YM5,https://www.digikey.com/product-detail/en/microchip-technology/MIC5504-3-3YM5-TR/576-4764-1-ND/4864028
+29,U5,ESP-12E,1,ESP-12E,ALREADY IN STOCK
+30,R17,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,50M,50M turns out to be expensive. Got 22M
+31,TP1,TestPoint_Pad_D2.5mm,1,TestPoint,Not a physical part
+32,V1,j305_geiger_fuse_holder,1,Nuclear-Radiation_Detector,https://www.digikey.com/product-detail/en/FC-102-22/507-1702-ND/622585/?itemSeq=339480082
