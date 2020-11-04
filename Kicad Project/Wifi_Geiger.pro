@@ -1,4 +1,4 @@
-update=Wed 23 Sep 2020 10:56:27 AM EDT
+update=Tue 29 Sep 2020 07:14:11 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -22,7 +22,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=blank_worksheet.kicad_wks
 LastNetListRead=Wifi_Geiger.net
 CopperLayerCount=2
 BoardThickness=1.6
@@ -65,7 +65,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

@@ -14,19 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_B_Mini J1
-U 1 1 5F68D6F6
-P 850 1300
-F 0 "J1" H 907 1767 50  0000 C CNN
-F 1 "USB_B_Mini" H 907 1676 50  0000 C CNN
-F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 1000 1250 50  0001 C CNN
-F 3 "~" H 1000 1250 50  0001 C CNN
-	1    850  1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	750  1700 850  1700
-$Comp
 L Device:CP1 C5
 U 1 1 5F68EBFE
 P 1450 1350
@@ -39,9 +26,6 @@ F 3 "~" H 1450 1350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 1100 1450 1100
-Wire Wire Line
-	1450 1700 850  1700
-Connection ~ 850  1700
 $Comp
 L Device:L L1
 U 1 1 5F68E31A
@@ -317,19 +301,6 @@ HIGH VOLTAGE SPIKE GENERATOR + 555 FEEDBACK
 Text Label 7950 850  0    50   ~ 0
 INDUCTOR_SPIKES
 $Comp
-L Device:D D1
-U 1 1 5F7297BC
-P 8800 1000
-F 0 "D1" V 8846 921 50  0000 R CNN
-F 1 "D" V 8755 921 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123F" H 8800 1000 50  0001 C CNN
-F 3 "~" H 8800 1000 50  0001 C CNN
-	1    8800 1000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7950 850  8800 850 
-$Comp
 L Device:D D2
 U 1 1 5F737530
 P 9250 1000
@@ -352,8 +323,6 @@ F 3 "~" H 9700 1000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8800 1150 9250 1150
-Wire Wire Line
 	9250 850  9700 850 
 $Comp
 L Device:C C1
@@ -366,9 +335,6 @@ F 3 "~" H 9050 850 50  0001 C CNN
 	1    9050 850 
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8800 850  8900 850 
-Connection ~ 8800 850 
 Wire Wire Line
 	9200 850  9250 850 
 Connection ~ 9250 850 
@@ -385,7 +351,6 @@ F 3 "~" H 9450 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9250 1150 9300 1150
-Connection ~ 9250 1150
 Wire Wire Line
 	9600 1150 9700 1150
 $Comp
@@ -1190,25 +1155,8 @@ Wire Notes Line
 	5400 4700 5400 7800
 Text Notes 700  7700 0    50   ~ 0
 ESP-12 AND SUPPORTING COMPONENTS
-$Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 5FA43BF6
-P 6700 5100
-F 0 "J2" H 6780 5092 50  0000 L CNN
-F 1 "Conn_01x04" H 6780 5001 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x04_P3.81mm_Drill1mm" H 6700 5100 50  0001 C CNN
-F 3 "~" H 6700 5100 50  0001 C CNN
-	1    6700 5100
-	1    0    0    -1  
-$EndComp
 Text Label 5850 5100 0    50   ~ 0
-ESP_TXD
-Text Label 5850 5200 0    50   ~ 0
 ESP_RXD
-Wire Wire Line
-	5850 5100 6500 5100
-Wire Wire Line
-	5850 5200 6500 5200
 $Comp
 L power:GND #PWR021
 U 1 1 5FA55BD2
@@ -1220,21 +1168,6 @@ F 3 "" H 6250 5300 50  0001 C CNN
 	1    6250 5300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6250 5300 6500 5300
-$Comp
-L power:+3V3 #PWR019
-U 1 1 5FA5BBAE
-P 6250 5000
-F 0 "#PWR019" H 6250 4850 50  0001 C CNN
-F 1 "+3V3" H 6265 5173 50  0000 C CNN
-F 2 "" H 6250 5000 50  0001 C CNN
-F 3 "" H 6250 5000 50  0001 C CNN
-	1    6250 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 5000 6500 5000
 Wire Notes Line
 	7400 6000 7400 4700
 Text Notes 5450 6000 0    50   ~ 0
@@ -1284,4 +1217,63 @@ Wire Wire Line
 	7850 5650 7850 5450
 Text Notes 7450 6000 0    50   ~ 0
 HIGH IMPEDANCE HIGH VOLTAGE TEST POINT
+Text Label 1150 1100 0    50   ~ 0
+5V_RAW
+Text Label 9350 850  0    50   ~ 0
+C_W_2
+Connection ~ 9250 1150
+Connection ~ 8800 850 
+Wire Wire Line
+	8800 850  8900 850 
+Wire Wire Line
+	7950 850  8800 850 
+Text Label 8950 1150 0    50   ~ 0
+C_W_1
+Wire Wire Line
+	8800 1150 9250 1150
+$Comp
+L Device:D D1
+U 1 1 5F7297BC
+P 8800 1000
+F 0 "D1" V 8846 921 50  0000 R CNN
+F 1 "D" V 8755 921 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" H 8800 1000 50  0001 C CNN
+F 3 "~" H 8800 1000 50  0001 C CNN
+	1    8800 1000
+	0    -1   -1   0   
+$EndComp
+Text Label 9750 1150 0    50   ~ 0
+C_W_3
+$Comp
+L usb_traces:4_PIN_USB J1
+U 1 1 5F777D70
+P 850 1300
+F 0 "J1" H 907 1767 50  0000 C CNN
+F 1 "4_PIN_USB" H 907 1676 50  0000 C CNN
+F 2 "usb_traces:usb-traces" H 1000 1250 50  0001 C CNN
+F 3 " ~" H 1000 1250 50  0001 C CNN
+	1    850  1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  1700 1450 1700
+Text Label 5850 5200 0    50   ~ 0
+ESP_TXD
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5F798A1E
+P 6700 5200
+F 0 "J2" H 6672 5132 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 6672 5223 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6700 5200 50  0001 C CNN
+F 3 "~" H 6700 5200 50  0001 C CNN
+	1    6700 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 5100 6500 5100
+Wire Wire Line
+	5850 5200 6500 5200
+Wire Wire Line
+	6250 5300 6500 5300
 $EndSCHEMATC
